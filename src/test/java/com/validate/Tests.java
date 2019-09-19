@@ -6,11 +6,9 @@ import com.validate.entity.Discount;
 import com.validate.validateService.ValidateService;
 import org.junit.Assert;
 import org.junit.Test;
-import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 
-@Component
 public class Tests {
 
     @Test(expected = IllegalArgumentException.class)
